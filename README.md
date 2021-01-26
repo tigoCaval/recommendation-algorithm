@@ -8,7 +8,7 @@ Collaborative filtering recommendation system
  Starting with composer
  1. Install composer
  2. Download package: ```composer require tigo/recommendation```
- 3. PHP >= 7.0
+ 3. PHP >= 7.0; Versions that have been tested: 7.2.25, 7.3.23 e 8.0.1. 
  
  ```php
  //Somewhere in your project, you may need to use autoload
