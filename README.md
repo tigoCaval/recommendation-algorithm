@@ -3,6 +3,19 @@ Collaborative filtering recommendation system
 - Ranking algorithm using likes / dislikes or star-based rating
 - This package can be used in any PHP/composer application or with any framework.
 - Download package: ```composer require tigo/recommendation```
+
+ ### Getting started
+ 
+ 1. Install composer
+ 2. Download package: ```composer require tigo/recommendation```
+ 3. PHP >= 7.0
+ 
+ ```php
+ //Somewhere in your project, you may need to use autoload
+ include __DIR__ ."/vendor/autoload.php";
+ 
+ ```
+ 
 ### Configuration
 Sometimes it may be necessary to rename the value of the attributes (According to your database table).
 
