@@ -40,32 +40,32 @@ Sometimes, it may be necessary to rename the value of the constants (According t
     const USER_ID = 'user_id'; //Foreign key 
 ```
 ### Syntax Example
-Didactic demonstration of the algorithm
+A simple didactic demonstration of the algorithm
 ```php
-  $table = [
-   ['product_id' = 'A',
-    'score' = 1, 
-    'user_id' = 'Pedro'
-   ],
-   ['product_id' = 'B',
-    'score' = 1, 
-    'user_id' = 'Pedro'
-   ],
-   ['product_id' = 'A',
-    'score' = 1, 
-    'user_id' = 'João'
-   ],
-   ['product_id' = 'B',
-    'score' = 1, 
-    'user_id' = 'João'
-   ],
-   ['product_id' = 'C',
-    'score' = 1, 
-    'user_id' = 'João'
-   ]
- ];
- use Tigo\Recommend; // import
- $client = new Recommend();
- print_r($client->ranking($table,"Pedro")); 
+   $table = [
+        ['product_id'=> 'A',
+         'score'=> 1, 
+         'user_id'=> 'Pedro'
+        ],
+        ['product_id'=> 'B',
+         'score'=> 1, 
+         'user_id'=> 'Pedro'
+        ],
+        ['product_id'=> 'A',
+         'score'=> 1, 
+         'user_id'=> 'João'
+        ],
+        ['product_id'=> 'B',
+         'score'=> 1, 
+         'user_id'=> 'João'
+        ],
+        ['product_id'=> 'C',
+         'score'=> 1, 
+         'user_id'=> 'João'
+        ]
+  ];
+  use Tigo\Recommend; // import
+  $client = new Recommend();
+  print_r($client->ranking($table,"Pedro")); // result = ['C' => 2] 
 
 ```
