@@ -6,7 +6,7 @@ Collaborative filtering recommendation system
 ### Configuration
 Sometimes it may be necessary to rename the value of the attributes (According to your database table).
 
-[![example](https://github.com/tigoCaval/images/blob/main/web/tablereco.png)]()
+[![example](https://github.com/tigoCaval/images/blob/main/web/tablereco.png)](https://github.com/tigoCaval/recommendation-algorithm)
 
 - Configure: standard key (Directory: ```./src/configuration/StandardKey.php```)
 ```php
