@@ -5,7 +5,7 @@ Collaborative filtering recommendation system
 - Download package: ```composer require tigo/recommendation```
 
  ### Getting started
- 
+ Starting with composer
  1. Install composer
  2. Download package: ```composer require tigo/recommendation```
  3. PHP >= 7.0
