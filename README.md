@@ -13,8 +13,20 @@ Collaborative filtering recommendation system
  ```php
  //Somewhere in your project, you may need to use autoload
  include __DIR__ ."/vendor/autoload.php";
- 
  ```
+ 
+### Introduction
+Recommend a product using collaborative filtering
+```php
+   /**  
+     $table gets the array from the database.
+     $user is the foreign key that represents the user who will receive the recommendation.
+   **/
+   use Tigo\Recommend; // import class
+   $client = new Recommend();
+   $client->ranking($table,$user) // Get Ranking algorithm using likes/dislikes
+   $client->euclidean($table,$user,0); // It is recommended to use this algorithm in "star-based rating"   
+```
  
 ### Configuration
 Sometimes, it may be necessary to rename the value of the constants (According to your database table).
