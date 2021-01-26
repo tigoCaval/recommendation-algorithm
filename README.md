@@ -24,7 +24,7 @@ Recommend a product using collaborative filtering
    **/
    use Tigo\Recommend; // import class
    $client = new Recommend();
-   $client->ranking($table,$user) // Get Ranking algorithm using likes/dislikes
+   $client->ranking($table,$user) // It is recommended to use "rating: liked and disliked"
    $client->euclidean($table,$user,0); // It is recommended to use this algorithm in "star-based rating"   
 ```
  
