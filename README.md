@@ -24,8 +24,8 @@ Recommend a product using collaborative filtering
    **/
    use Tigo\Recommend; // import class
    $client = new Recommend();
-   $client->ranking($table,$user) // It is recommended to use "rating: liked and disliked"
-   $client->euclidean($table,$user,0); // It is recommended to use this algorithm in "star-based rating"   
+   $client->ranking($table,$user) 
+   $client->euclidean($table,$user,0);   
 ```
  
 ### Configuration
@@ -42,6 +42,10 @@ Sometimes, it may be necessary to rename the value of the constants (According t
 ### Syntax Example
 A simple didactic demonstration of the algorithm
 ```php
+  /**
+     Example using "rating: liked and disliked"
+     like: score = 1;  dislike: score = 0
+  **/
    $table = [
         ['product_id'=> 'A',
          'score'=> 1, 
@@ -64,8 +68,9 @@ A simple didactic demonstration of the algorithm
          'user_id'=> 'João'
         ]
   ];
-  use Tigo\Recommend; // import
+  use Tigo\Recommend; // import class
   $client = new Recommend();
   print_r($client->ranking($table,"Pedro")); // result = ['C' => 2] 
-
+  print_r($client->euclidean($table,"Pedro", 0)); // result = ['C' => 1]
+  print_r($client->euclidean($table,"Pedro", 2)); // result = [] ;  
 ```
