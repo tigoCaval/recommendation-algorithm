@@ -24,8 +24,8 @@ Recommend a product using collaborative filtering
    **/
    use Tigo\Recommend; // import class
    $client = new Recommend();
-   $client->ranking($table,$user) 
-   $client->euclidean($table,$user,0);   
+   $client->ranking($table,$user) //optional third parameter refers to the score not accepted
+   $client->euclidean($table,$user); //optional third parameter refers to the minimum accepted score   
 ```
  
 ### Configuration
@@ -71,7 +71,9 @@ A simple didactic demonstration of the algorithm
   use Tigo\Recommend; // import class
   $client = new Recommend();
   print_r($client->ranking($table,"Pedro")); // result = ['C' => 2] 
-  print_r($client->euclidean($table,"Pedro", 0)); // result = ['C' => 1]
+  print_r($client->ranking($t->get(),"Pedro",1)); // result = []; 
+  
+  print_r($client->euclidean($table,"Pedro")); // result = ['C' => 1]
   /**third parameter determines the lowest accepted score**/
   print_r($client->euclidean($table,"Pedro", 2)); // result = [] ;  
 ```
