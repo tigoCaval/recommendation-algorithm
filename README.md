@@ -72,5 +72,6 @@ A simple didactic demonstration of the algorithm
   $client = new Recommend();
   print_r($client->ranking($table,"Pedro")); // result = ['C' => 2] 
   print_r($client->euclidean($table,"Pedro", 0)); // result = ['C' => 1]
+  /**third parameter determines the lowest accepted score**/
   print_r($client->euclidean($table,"Pedro", 2)); // result = [] ;  
 ```
