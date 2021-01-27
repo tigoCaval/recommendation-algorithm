@@ -39,7 +39,7 @@ Sometimes, it may be necessary to rename the value of the constants (According t
     const PRODUCT_ID = 'product_id'; //Foreign key
     const USER_ID = 'user_id'; //Foreign key 
 ```
-### Syntax Example
+### Example
 A simple didactic demonstration of the algorithm
 ```php
   /**
