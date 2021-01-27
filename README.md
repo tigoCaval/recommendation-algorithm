@@ -22,7 +22,7 @@ Recommend a product using collaborative filtering
      $table gets the array from the database.
      $user is the foreign key that represents the user who will receive the recommendation.
    **/
-   use Tigo\Recommend; // import class
+   use Tigo\Recommendation\Recommend; // import class
    $client = new Recommend();
    $client->ranking($table,$user) //optional third parameter refers to the score not accepted
    $client->euclidean($table,$user); //optional third parameter refers to the minimum accepted score   
@@ -68,7 +68,7 @@ A simple didactic demonstration of the algorithm
          'user_id'=> 'João'
         ]
   ];
-  use Tigo\Recommend; // import class
+  use Tigo\Recommendation\Recommend; // import class
   $client = new Recommend();
   print_r($client->ranking($table,"Pedro")); // result = ['C' => 2] 
   print_r($client->ranking($t->get(),"Pedro",1)); // result = []; 
