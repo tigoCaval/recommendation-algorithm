@@ -74,6 +74,5 @@ A simple didactic demonstration of the algorithm
   print_r($client->ranking($t->get(),"Pedro",1)); // result = []; 
   
   print_r($client->euclidean($table,"Pedro")); // result = ['C' => 1]
-  /**third parameter determines the lowest accepted score**/
   print_r($client->euclidean($table,"Pedro", 2)); // result = [] ;  
 ```
