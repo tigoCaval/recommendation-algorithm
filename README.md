@@ -4,7 +4,7 @@ Collaborative filtering recommendation system
 - This package can be used in any PHP application or with any framework.
 - Download package: ```composer require tigo/recommendation```
 
-*If you found this project useful, consider making a donation to support the developer [Donate](https://www.paypal.com/donate?hosted_button_id=S7FBV5N6ZTRXQ)*
+*If you found this project useful, consider making a donation to support the developer. [Donate](https://www.paypal.com/donate?hosted_button_id=S7FBV5N6ZTRXQ)*
 
  ### Getting started
  Starting with composer
