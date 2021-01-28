@@ -1,0 +1,34 @@
+{
+    "name": "tigo/recommendation",
+    "description": "collaborative filtering recommender systems", 
+    "license": "MIT",
+    "keywords": [  
+       "recommendation",
+       "collaborative filtering",
+       "euclidean distance",
+       "recommender system",
+       "recommendation system",
+       "recommendation algorithm",
+       "recommender"   
+    ],
+    "authors": [ 
+        {
+            "name": "Tiago A C Pereira",
+            "email": "tiagocavalcante57@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tigo\\Recommendation\\": "src/" 
+        }
+    },
+    "autoload-dev": {
+        "psr-4": { "Tigo\\Recommendation\\Tests\\": "tests" }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
