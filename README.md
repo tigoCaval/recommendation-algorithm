@@ -82,4 +82,4 @@ MIT license. See the archive [License](https://github.com/tigoCaval/recommendati
 ---
 [Donate](https://www.paypal.com/donate?hosted_button_id=S7FBV5N6ZTRXQ)
 
-If you found this package useful, consider making a donation to support the developer
+If you found this project useful, consider making a donation to support the developer
