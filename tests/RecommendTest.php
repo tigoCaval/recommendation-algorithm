@@ -1,5 +1,5 @@
 <?php
-namespace tests;
+namespace Tigo\Recommendation\Tests;
 
 use Tigo\Recommendation\Recommend;
 use Tigo\Recommendation\Tests\DataArrayTrait;
