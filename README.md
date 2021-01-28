@@ -78,3 +78,8 @@ A simple didactic demonstration of the algorithm
 ```
 ### License
 MIT license. See the archive [License](https://github.com/tigoCaval/recommendation-algorithm/blob/main/LICENSE)
+
+---
+[Donate](https://www.paypal.com/donate?hosted_button_id=S7FBV5N6ZTRXQ)
+
+If you found this package useful, consider making a donation to support the developer
