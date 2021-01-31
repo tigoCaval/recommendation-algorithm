@@ -3,7 +3,7 @@ Collaborative filtering recommendation system
 - Ranking algorithm using likes / dislikes or star-based rating
 - This package can be used in any PHP application or with any framework.
 - Download package: ```composer require tigo/recommendation```
-- MIT license. *Feel free to use this project*.
+- MIT license. ***Feel free to use this project***. ***Leave a star :star: or make a fork !***
 
 *If you found this project useful, consider making a donation to support the developer. [Donate](https://www.paypal.com/donate?hosted_button_id=S7FBV5N6ZTRXQ)*
 
