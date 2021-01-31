@@ -5,7 +5,9 @@ Collaborative filtering recommendation system
 - Download package: ```composer require tigo/recommendation```
 - MIT license. ***Feel free to use this project***. ***Leave a star :star: or make a fork !***
 
-*If you found this project useful, consider making a donation to support the developer. [Donate](https://www.paypal.com/donate?hosted_button_id=S7FBV5N6ZTRXQ)*
+*If you found this project useful, consider making a donation to support the developer.* 
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate?hosted_button_id=S7FBV5N6ZTRXQ)
 
  ### Getting started
  Starting with composer
@@ -86,3 +88,5 @@ MIT license. See the archive [License](https://github.com/tigoCaval/recommendati
 [Donate](https://www.paypal.com/donate?hosted_button_id=S7FBV5N6ZTRXQ)
 
 If you found this project useful, consider making a donation to support the developer
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate?hosted_button_id=S7FBV5N6ZTRXQ)
