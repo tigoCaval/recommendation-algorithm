@@ -88,6 +88,12 @@ A simple didactic demonstration of the algorithm
   print_r($client->slopeOne($table,'Pedro')); // result = ['C' => 1]
   print_r($client->slopeOne($table,'Pedro', 2)); // result = []
 ```
+
+### Supporting this project
+If you are interested in supporting this project, you can help in many ways. Leave a star :star: or make a donation.
+### Sponsor supporting this project
+- []
+
 ### License
 MIT license. See the archive [License](https://github.com/tigoCaval/recommendation-algorithm/blob/main/LICENSE)
 
