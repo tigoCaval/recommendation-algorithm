@@ -3,6 +3,7 @@ namespace Tigo\Recommendation;
 
 use Tigo\Recommendation\Collaborative\EuclideanCollaborative;
 use Tigo\Recommendation\Collaborative\RankingCollaborative;
+use Tigo\Recommendation\Collaborative\SlopeOneCollaborative;
 use Tigo\Recommendation\Factories\CollaborativeFactory; 
 
 /**
@@ -46,5 +47,18 @@ class Recommend
    { 
       return $this->method->doFactory(new EuclideanCollaborative(), $table, $user, $score);   
    }
-   
+
+   /**
+    * Get slope one | collaborative filtering algorithm.
+    * @param array $table
+    * @param mixed $user
+    * @param mixed $score
+    * 
+    * @return [type]
+    */
+   public function slopeOne($table, $user, $score = 0)
+   {
+      return $this->method->doFactory(new SlopeOneCollaborative(), $table, $user, $score);
+   }
+
 }

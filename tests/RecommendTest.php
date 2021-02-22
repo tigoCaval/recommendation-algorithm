@@ -53,5 +53,12 @@ class RecommendTest extends TestCase
             $this->assertEquals($luana, ['A'=>0.87,'G'=>1]);
       }
 
+      public function testSlopeOneExpectedResult()
+      {
+            $client = new Recommend();
+            $pedro = $client->slopeOne($this->table,'Pedro');
+            $this->assertEquals($pedro,['C'=>0.57]);
+      }
+
 
 }
