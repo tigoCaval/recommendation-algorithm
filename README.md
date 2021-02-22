@@ -19,7 +19,10 @@ Collaborative filtering recommendation system
  //Somewhere in your project, you may need to use autoload
  include __DIR__ ."/vendor/autoload.php";
  ```
- 
+### Algorithms
+- ranking
+- euclidean
+- slope one
 ### Introduction
 Recommend a product using collaborative filtering
 ```php
@@ -29,8 +32,9 @@ Recommend a product using collaborative filtering
    **/
    use Tigo\Recommendation\Recommend; // import class
    $client = new Recommend();
-   $client->ranking($table,$user) //optional third parameter refers to the score not accepted
-   $client->euclidean($table,$user); //optional third parameter refers to the minimum accepted score   
+   $client->ranking($table,$user); //optional third parameter refers to the score not accepted
+   $client->euclidean($table,$user); //optional third parameter refers to the minimum accepted score
+   $client->slopeOne($table, $user); //optional third parameter refers to the minimum accepted score
 ```
  
 ### Configuration
@@ -80,6 +84,9 @@ A simple didactic demonstration of the algorithm
   
   print_r($client->euclidean($table,"Pedro")); // result = ['C' => 1]
   print_r($client->euclidean($table,"Pedro", 2)); // result = [] ;  
+  
+  print_r($client->slopeOne($table,'Pedro')); // result = ['C' => 1]
+  print_r($client->slopeOne($table,'Pedro', 2)); // result = []
 ```
 ### License
 MIT license. See the archive [License](https://github.com/tigoCaval/recommendation-algorithm/blob/main/LICENSE)
