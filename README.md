@@ -98,8 +98,4 @@ If you are interested in supporting this project, you can help in many ways. Lea
 MIT license. See the archive [License](https://github.com/tigoCaval/recommendation-algorithm/blob/main/LICENSE)
 
 ---
-[Donate](https://www.paypal.com/donate?hosted_button_id=S7FBV5N6ZTRXQ)
 
-If you found this project useful, consider making a donation to support the developer
-
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate?hosted_button_id=S7FBV5N6ZTRXQ)
