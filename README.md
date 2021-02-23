@@ -93,7 +93,8 @@ A simple didactic demonstration of the algorithm
 ```
 
 ### Supporting this project
-If you are interested in supporting this project, you can help in many ways. Leave a star :star: or make a donation.
+If you are interested in supporting this project, you can help in many ways. Leave a star :star: or make a donation of any value.
+
 ### Sponsor supporting this project
 - []
 
