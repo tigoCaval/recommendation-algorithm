@@ -1,4 +1,7 @@
 # Recommendation algorithm
+
+[![](https://github.com/tigoCaval/images/blob/main/web/recommend.gif)](https://github.com/tigoCaval/recommendation-algorithm)
+
 Collaborative filtering recommendation system
 - Ranking algorithm using likes / dislikes or star-based rating
 - This package can be used in any PHP application or with any framework.
