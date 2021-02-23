@@ -40,7 +40,7 @@ Recommend a product using collaborative filtering
 ### Configuration
 Sometimes, it may be necessary to rename the value of the constants (According to your database table).
 
-[![example](https://github.com/tigoCaval/images/blob/main/web/tablereco.png)](https://github.com/tigoCaval/recommendation-algorithm)
+[![example](https://github.com/tigoCaval/images/blob/main/web/table_r1.jpg)](https://github.com/tigoCaval/recommendation-algorithm)
 
 - Configure: standard key (Directory: ```./src/configuration/StandardKey.php```)
 ```php
