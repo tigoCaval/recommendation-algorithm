@@ -1,7 +1,5 @@
 # Recommendation algorithm
 
-[![](https://github.com/tigoCaval/images/blob/main/web/recommend.gif)](https://github.com/tigoCaval/recommendation-algorithm)
-
 Collaborative filtering recommendation system
 - Ranking algorithm using likes / dislikes or star-based rating
 - This package can be used in any PHP application or with any framework.
@@ -11,6 +9,8 @@ Collaborative filtering recommendation system
 *If you found this project useful, consider making a donation to support the developer.* 
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate?hosted_button_id=S7FBV5N6ZTRXQ)
+
+[![](https://github.com/tigoCaval/images/blob/main/web/recommend.gif)](https://github.com/tigoCaval/recommendation-algorithm)
 
  ### Getting started
  Starting with composer
