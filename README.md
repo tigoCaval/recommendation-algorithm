@@ -98,7 +98,7 @@ If you are interested in supporting this project, you can help in many ways. Lea
 ### Sponsor supporting this project
 - []
 ### Contributors
- - Author: [Tiago A C Pereira](https://github.com/tigoCaval) 
+ - [Tiago A C Pereira](https://github.com/tigoCaval) 
  - [list of contributors](https://github.com/tigoCaval/recommendation-algorithm/graphs/contributors)
 ### License
 MIT license. See the archive [License](https://github.com/tigoCaval/recommendation-algorithm/blob/main/LICENSE)
