@@ -8,7 +8,8 @@ Collaborative filtering recommendation system
 
 *If you found this project useful, consider making a donation to support the developer.* 
 
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate?hosted_button_id=S7FBV5N6ZTRXQ)
+[![paypal](https://www.paypalobjects.com/pt_BR/BR/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate?hosted_button_id=S7FBV5N6ZTRXQ)
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate?hosted_button_id=PPDESEV98R8KS)
 
 [![](https://github.com/tigoCaval/images/blob/main/web/recommend.gif)](https://github.com/tigoCaval/recommendation-algorithm)
 
